@@ -9,7 +9,7 @@ const FLAVORS = [
     emoji: "🍎",
     name: "Double Apple",
     ar: "تفاحتين",
-    price: "150,000",
+    price: "500,000",
     tag: "The Classic",
     desc: "Sweet, smooth and rich — the one everyone orders.",
     aura: "rgba(199,90,90,.5)"
@@ -18,7 +18,7 @@ const FLAVORS = [
     emoji: "🍋",
     name: "Lemon & Mint",
     ar: "ليمون و نعنع",
-    price: "150,000",
+    price: "500,000",
     tag: "Fresh",
     desc: "Zesty lemon with cool mint. Light and refreshing.",
     aura: "rgba(224,200,90,.55)"
@@ -27,7 +27,7 @@ const FLAVORS = [
     emoji: "🍇",
     name: "Grapes",
     ar: "عنب",
-    price: "150,000",
+    price: "500,000",
     tag: "Smooth",
     desc: "Natural grape, soft and just sweet enough.",
     aura: "rgba(150,110,200,.5)"
