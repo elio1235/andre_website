@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chez Andre Cafe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Chez Andre<span>Cafe</span></div>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Chicha</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content fade-in">
+      <p class="tag">Premium Chicha Cafe</p>
+      <h1>Welcome to Chez Andre Cafe</h1>
+      <p>Relax, smoke, drink, and enjoy your favorite chicha flavors in a cozy modern atmosphere.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <p class="section-tag">Our Menu</p>
+    <h2>Available Chicha</h2>
+
+    <div class="cards">
+      <div class="card reveal">
+        <div class="icon">🍎</div>
+        <h3>Two Apples</h3>
+        <p>Classic strong flavor with a sweet apple taste and smooth smoke.</p>
+        <span class="price">$8</span>
+      </div>
+
+      <div class="card reveal">
+        <div class="icon">🍋🌿</div>
+        <h3>Lemon & Mint</h3>
+        <p>Fresh lemon mixed with cool mint for a clean and refreshing session.</p>
+        <span class="price">$9</span>
+      </div>
+
+      <div class="card reveal">
+        <div class="icon">🍇</div>
+        <h3>Grape Mint</h3>
+        <p>Sweet grape flavor balanced with mint for a smooth modern taste.</p>
+        <span class="price">$9</span>
+      </div>
+
+      <div class="card reveal">
+        <div class="icon">🍉</div>
+        <h3>Watermelon</h3>
+        <p>Light fruity flavor, perfect for a chill evening with friends.</p>
+        <span class="price">$8</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about section">
+    <p class="section-tag">About Us</p>
+    <h2>Why Chez Andre?</h2>
+    <p>
+      Chez Andre Cafe is a calm and stylish place made for friends, good conversations,
+      fresh drinks, and premium chicha flavors. Our goal is simple: clean service,
+      relaxing vibes, and a beautiful cafe experience.
+    </p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="section-tag">Contact Us</p>
+    <h2>Visit Us</h2>
+
+    <div class="contact-box reveal">
+      <p><strong>Location:</strong> Zahle, Lebanon</p>
+      <p><strong>Phone:</strong> +961 70 000 000</p>
+      <p><strong>Instagram:</strong> @chezandrecafe</p>
+
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Chez Andre Cafe. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
