@@ -88,16 +88,30 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .hero h1 .acc{display:block;color:var(--brass);}
 .hero-ar{font-size:1.18rem;color:var(--ink);font-weight:500;margin-top:14px;opacity:.9}
 .hero-sub{color:var(--ink-dim);font-weight:300;margin-top:12px;max-width:320px}
-.hero-cta{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;justify-content:center;
-  background:linear-gradient(120deg,var(--brass),var(--ember));color:#1c1109;
-  font-weight:700;font-size:.92rem;padding:13px 20px;border-radius:999px;
-  letter-spacing:.01em;transition:transform .15s,box-shadow .3s;
-  box-shadow:0 10px 26px rgba(225,103,47,.22);}
-.btn:active{transform:scale(.97)}
-.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line);
-  box-shadow:none;font-weight:500}
-.btn.ghost:active{background:var(--panel)}
+.hero-badge{display:inline-flex;align-items:center;gap:9px;margin-top:22px;
+  background:rgba(224,180,88,.1);border:1px solid var(--line);
+  color:var(--ink);font-size:.82rem;font-weight:500;
+  padding:10px 16px;border-radius:999px;}
+.hb-dot{width:8px;height:8px;border-radius:50%;background:var(--ember);flex:none;
+  animation:glow 2.4s ease-in-out infinite}
+
+/* ====================== DELIVERY ====================== */
+.delivery{position:relative;overflow:hidden;margin-top:30px;
+  border:1px solid var(--line);border-radius:var(--r);padding:24px 20px;
+  background:
+    radial-gradient(120% 90% at 100% 0%, rgba(225,103,47,.18), transparent 55%),
+    linear-gradient(158deg,var(--panel-2),var(--bg-2));}
+.d-tag{display:inline-block;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--brass);padding:4px 11px;border:1px solid var(--line);border-radius:999px}
+.d-title{font-family:var(--display);font-weight:800;font-size:1.9rem;letter-spacing:-.4px;margin-top:14px}
+.d-ar{font-size:1.15rem;color:var(--ink);font-weight:500;margin-top:6px}
+.d-sub{color:var(--ink-dim);font-weight:300;margin-top:10px;font-size:.92rem}
+.d-points{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.d-point{display:flex;align-items:flex-start;gap:13px}
+.dp-ic{width:40px;height:40px;flex:none;border-radius:12px;display:grid;place-items:center;
+  background:rgba(224,180,88,.1);border:1px solid var(--line-2);font-size:1.2rem}
+.d-point b{display:block;font-family:var(--display);font-size:.98rem;font-weight:700}
+.d-point span{display:block;font-size:.84rem;color:var(--ink-dim);font-weight:300;margin-top:1px}
 
 /* ====================== SECTION HEAD ====================== */
 .sec-head{display:flex;align-items:baseline;justify-content:space-between;margin:36px 2px 16px}

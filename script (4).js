@@ -10,8 +10,8 @@ const FLAVORS = [
     name: "Double Apple",
     ar: "تفاحتين",
     price: "150,000",
-    tag: "El Classic",
-    desc: "El asleyye. 7elwe, na3me w mdakhkhne — el bowl yalli 3ammar el maHal.",
+    tag: "The Classic",
+    desc: "Sweet, smooth and rich — the one everyone orders.",
     aura: "rgba(199,90,90,.5)"
   },
   {
@@ -19,8 +19,8 @@ const FLAVORS = [
     name: "Lemon & Mint",
     ar: "ليمون و نعنع",
     price: "150,000",
-    tag: "BteHye",
-    desc: "Laymoun He2 ma3 ne3na3 mn 3ena. Bared 3a el sader w byefta7 el nafas.",
+    tag: "Fresh",
+    desc: "Zesty lemon with cool mint. Light and refreshing.",
     aura: "rgba(224,200,90,.55)"
   },
   {
@@ -28,8 +28,8 @@ const FLAVORS = [
     name: "Grapes",
     ar: "عنب",
     price: "150,000",
-    tag: "Mazboot",
-    desc: "3enab Tabi3e, na3em w 7elo bil 2ad. Nakha mdawwame Tool el sahra.",
+    tag: "Smooth",
+    desc: "Natural grape, soft and just sweet enough.",
     aura: "rgba(150,110,200,.5)"
   }
 ];
